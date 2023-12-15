@@ -1,0 +1,3288 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/common.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stc_exception::{dtor}",
+                  "decoratedName": "??1stc_exception@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'path'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                },
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stc_embed",
+                  "decoratedName": "?stc_embed@@YANPEBEH0HPEBX_NPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'path' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'matrixheight>31' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'stego!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'invalpha<1.000000' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 64
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 63
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<syndromelength' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'usefloat' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 275,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 276,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'path' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'ssedone'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                },
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 17,
+                  "endLine": 282,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stc_embed",
+                  "decoratedName": "?stc_embed@@YANPEBEH0HPEBX_NPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 64
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'ssedone' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 275,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 276,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<sseheight')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'ssedone' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'pathindex'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stc_embed",
+                  "decoratedName": "?stc_embed@@YANPEBEH0HPEBX_NPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 68
+                          }
+                        },
+                        "message": {
+                          "text": "'pathindex' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'matrixheight>31' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'stego!=0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 87,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'invalpha<1.000000' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 64
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 63
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<syndromelength')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Exit this loop, ('i<syndromelength' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'usefloat' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 268,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 270,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 274,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 275,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 276,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 279,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 280,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<sseheight' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 286,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'index2<syndromelength')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 289,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 291,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 302,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 302,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'k<widths[index2]')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 303,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 305,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'vector[index]==0' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 309,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 310,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 313,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 316,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'm<sseheight' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 368,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 370,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 373,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 374,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 375,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 375,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<sseheight' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 384,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 385,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                          },
+                          "region": {
+                            "startLine": 384,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'pathindex' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "The function 'std::numeric_limits<float>::infinity' is constexpr, mark variable 'inf' constexpr if compile-time evaluation is desired (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 15,
+                  "endLine": 142,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stc_embed",
+                  "decoratedName": "?stc_embed@@YANPEBEH0HPEBX_NPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/common.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a1688d0467051bf8d69d206789597703fb5110367286a135df2d74c1d216fa5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/stc_embed_c.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c213c2a407d02db468a16c0fda8d0eff3e8a740c534263ce473aa25987955edb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/include/stc_embed_c.h"
+          },
+          "hashes": {
+            "sha-256": "d0d243f20eeb7994807d0a493116eff782e48425f924c96c0960de76d524c5b3"
+          }
+        }
+      ]
+    }
+  ]
+}

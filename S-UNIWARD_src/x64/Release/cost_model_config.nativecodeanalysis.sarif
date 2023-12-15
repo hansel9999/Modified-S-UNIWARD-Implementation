@@ -1,0 +1,105 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/exception.hpp"
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "exception::{dtor}",
+                  "decoratedName": "??1exception@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/exception.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d826132ef747e36686442eb402df487fc18a5fdf9de6c6c4fdde21544eeeb87c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/s-uniward_src/cost_model_config.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "874c584a58bb9649785dc465df69b04be6b01aea63b7e74ca3af687f21186af1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/s-uniward_src/cost_model_config.h"
+          },
+          "hashes": {
+            "sha-256": "0bbc4802bb9c03e9aac231b46d81a529ab91688cc6762ad234974d2486839125"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/include/base_cost_model_config.h"
+          },
+          "hashes": {
+            "sha-256": "d56bbb8ae6038b60578ab34c5271ffc2ca67c76c624b16460644d3f64b36d6f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/include/mat2d.h"
+          },
+          "hashes": {
+            "sha-256": "a4c382a8c6a72f265f505948217f947e906767b683eb78cf9643557a601b54ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/s-uniward_src/wavelets.h"
+          },
+          "hashes": {
+            "sha-256": "36377862c9548442cc3fc48ad9a9d5b36aa31715caae25cf969d793916bec8c6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "The function 'std::numeric_limits<double>::epsilon' is constexpr, mark variable 'EPS' constexpr if compile-time evaluation is desired (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/info_theory.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 18,
+                  "endLine": 26,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "bin_entropy",
+                  "decoratedName": "?bin_entropy@@YANN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "The function 'std::numeric_limits<float>::epsilon' is constexpr, mark variable 'EPS' constexpr if compile-time evaluation is desired (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/info_theory.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 17,
+                  "endLine": 41,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "bin_entropyf",
+                  "decoratedName": "?bin_entropyf@@YAMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26498",
+          "message": {
+            "text": "The function 'std::numeric_limits<float>::epsilon' is constexpr, mark variable 'EPS' constexpr if compile-time evaluation is desired (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/info_theory.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 14,
+                  "endLine": 42,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "entropy",
+                  "decoratedName": "?entropy@@YAMAEBV?$valarray@M@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/info_theory.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b58698316667aad62590618a9ba076592ffcf1fd054092466119ccec02d6f821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Hansel/Documents/Code/StegThesis/ModifiedSUNIWARD/S-UNIWARD_windows_vc_2010_v10/include/info_theory.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "11b99364b20a4e17d56963b110ad1610e4545640b39a515e65b42d259ccdf9fe"
+          }
+        }
+      ]
+    }
+  ]
+}

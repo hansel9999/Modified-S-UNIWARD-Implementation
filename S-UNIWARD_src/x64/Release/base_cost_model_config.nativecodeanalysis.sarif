@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/include/base_cost_model_config.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3dd9d27c4a5df24d3f93a6338abf01ab6ee9dd78ec5e0307af9b1772e2674c27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hansel/documents/code/stegthesis/modifiedsuniward/s-uniward_windows_vc_2010_v10/include/base_cost_model_config.h"
+          },
+          "hashes": {
+            "sha-256": "d56bbb8ae6038b60578ab34c5271ffc2ca67c76c624b16460644d3f64b36d6f8"
+          }
+        }
+      ]
+    }
+  ]
+}
