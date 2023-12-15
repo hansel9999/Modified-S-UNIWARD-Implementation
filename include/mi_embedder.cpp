@@ -166,6 +166,16 @@ unsigned char* getMessageBits(std::string payload_data) {
     return message_chars;
 }
 
+unsigned char* getRandomBits(int n, float alpha, uint seed) {
+    boost::mt19937 generator(seed);
+    boost::variate_generator< boost::mt19937&, boost::uniform_int< > > rng(generator, boost::uniform_int< >(0, RAND_MAX));
+    uint message_length = (uint)floor(alpha * n);
+    unsigned char* message = new unsigned char[message_length];
+    for (uint i = 0; i < message_length; i++)
+        message[i] = rng() % 2;
+    return message;
+}
+
 mat2D<int>* mi_emb_stc_pls_embedding(base_cost_model* m, float alpha, uint seed, uint stc_constr_height, uint stc_max_trails, float &distortion,
         float &alpha_out, float &coding_loss, uint &stc_trials_used, std::string payload_data) 
 
@@ -185,23 +195,22 @@ mat2D<int>* mi_emb_stc_pls_embedding(base_cost_model* m, float alpha, uint seed,
         }
     }
 
-    boost::mt19937 generator( seed );
-    boost::variate_generator< boost::mt19937&, boost::uniform_int< > > rng( generator, boost::uniform_int< >( 0, RAND_MAX ) );
+    //boost::mt19937 generator( seed );
+    //boost::variate_generator< boost::mt19937&, boost::uniform_int< > > rng( generator, boost::uniform_int< >( 0, RAND_MAX ) );
 
     uint message_length = (uint) floor( payload_data.length() * 8 );
 
     if(message_length>n){
         std::cout<<"Message is too long, terminating";
     }
+    unsigned char* message = NULL;
     if (payload_data == "None") {
-        unsigned char* message;
-        for ( uint i = 0; i < message_length; i++ ) // generate random message
-               message[i] = rng() % 2;
+        message = getRandomBits(n, alpha, seed);
     }
     else {
-        unsigned char* message = getMessageBits(payload_data);
+        message = getMessageBits(payload_data);
     }
-    
+
 
     stc_trials_used = stc_max_trails;
 
